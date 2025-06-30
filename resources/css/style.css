@@ -1,0 +1,35 @@
+:root {
+    --main: rgb(255, 247, 4);
+    --sec: rgb(255, 0, 225);
+    --thrt: rgb(11, 210, 255);
+}
+
+.nav-color {
+    background: linear-gradient(80deg, var(--main), rgb(11, 172, 166), var(--thrt));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.main_color{
+    color: var(--main);
+}
+
+.sec_color{
+    color: var(--sec);
+}
+
+.thrt_color{
+    color: var(--thrt);
+}
+
+body {
+
+    font-family: "Happy Monkey", system-ui;
+}
+
+.button_cart{
+    border: 2px solid var(--thrt);
+    background-color: white;
+}
