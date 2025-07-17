@@ -26,10 +26,89 @@
 
 body {
 
-    font-family: "Happy Monkey", system-ui;
+    font-family: "Rubik", sans-serif;
 }
+
+.main-border{
+    border: 2px solid var(--main);
+}
+
+/* h1, h2, h3{
+    font-family: "TikTok Sans", sans-serif;
+} */
 
 .button_cart{
     border: 2px solid var(--thrt);
     background-color: white;
+}
+
+.spanEvent{
+    background: linear-gradient(80deg, var(--main), rgb(11, 172, 166), var(--thrt));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.event-animate{
+    animation: event 1s ease;
+}
+
+@keyframes event{
+    0% {transform: translateY(0)}
+    30% {transform: translateY(-20px)}
+    50% {transform: translateY(0px)}
+    70% {transform: translateY(-10px)}
+    100% {transform: translateY(0)}
+}
+
+.linkDiscover{
+    color: var(--main);
+    transition: 0.5s;
+}
+
+.linkDiscover:hover{
+    color: var(--sec);
+}
+
+.btnInputSearch{
+    border: 2px solid var(--main);
+    background-color: transparent;
+    color: var(--thrt);
+    transition: 0.3s;
+    width: 70px;
+}
+
+.btnInputSearch:hover{
+    border: 2px solid var(--thrt);
+    background-color: var(--thrt);
+    color: var(--main);
+}
+
+.newUser{
+    border: 2px solid var(--main);
+    color: var(--thrt);
+    transition: 0.3s;
+}
+
+.newUser:hover{
+    border: 2px solid var(--thrt);
+    background-color: var(--thrt);
+    color: var(--main);
+}
+
+.loginBtn{
+    border: 2px var(--thrt);
+    background-color: var(--thrt);
+}
+
+.logoutLink{
+    transition: 0.3s;
+}
+
+.logoutLink:hover{
+    color: #cd0707;
 }
