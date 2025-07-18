@@ -103,6 +103,11 @@ body {
 .loginBtn{
     border: 2px var(--thrt);
     background-color: var(--thrt);
+    transition: 0.3s;
+}
+
+.loginBtn:hover{
+    color: var(--main);
 }
 
 .logoutLink{

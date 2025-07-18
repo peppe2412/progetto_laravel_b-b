@@ -1,7 +1,10 @@
 <?php
 
+use App\Http\Controllers\AccomodationController;
 use App\Http\Controllers\PublicController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PublicController::class, 'homepage'])->name('homepage');
-Route::get('/B&b', [PublicController::class, 'homes'])->name('B&b');
+
+Route::get('/index', [AccomodationController::class, 'index'])->name('accomodation.index');
+

@@ -9,7 +9,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav mx-4">
-                <a class="nav-link fw-bold text-gray" href="{{ route('B&b') }}">B&b</a>
+                <a class="nav-link fw-bold text-gray" href="{{ route('accomodation.index') }}">B&b</a>
                 <a class="nav-link fw-bold text-gray" href="">Chi siamo</a>
                 @guest                    
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -22,10 +22,6 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="{{route('login')}}">Accedi</a></li>
                             <li><a class="dropdown-item" href="{{route('register')}}">Registrati</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
                 </ul>
