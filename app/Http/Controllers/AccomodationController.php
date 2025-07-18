@@ -14,7 +14,11 @@ class AccomodationController extends Controller
     {
 
         $accomodation = [
-            ['title'=>'Milano', 'content'=>'B&b vicino ai navigli', 'image'=>'https://a0.muscache.com/im/pictures/miso/Hosting-1447662302881867648/original/fe47b427-7993-4c63-920c-bf4f95b3b830.jpeg?im_w=720']
+            ['title' => 'Milano', 'content' => 'Benvenuti nel nostro spazioso appartamento di 87 m², perfetto per soggiorni brevi a Milano!
+            L’alloggio è composto da due stanze:
+– Una camera matrimoniale ampia, già pronta e dotata di tutti i comfort
+– Una seconda stanza più piccola, dove è possibile aggiungere, su richiesta, un letto gonfiabile per ospitare fino a due persone in più
+', 'image' => 'https://a0.muscache.com/im/pictures/miso/Hosting-1447662302881867648/original/fe47b427-7993-4c63-920c-bf4f95b3b830.jpeg?im_w=720']
         ];
 
         $title = 'B&b';
